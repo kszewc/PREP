@@ -1,0 +1,30 @@
+; ---- 
+; Built itp for SUAM12.mol2 
+;    by user vzoete     Thu Nov  5 10:27:54 CET 2020 
+; ---- 
+;
+
+[ atomtypes ] 
+; name at.num  mass   charge  ptype    sigma            epsilon 
+CB      6   12.0110  0.0  A         0.355005    0.292880  
+O=C     8   15.9994  0.0  A         0.302905    0.502080  
+NC=O    7   14.0067  0.0  A         0.329632    0.836800  
+CR      6   12.0110  0.0  A         0.387541    0.230120  
+C=O     6   12.0110  0.0  A         0.356359    0.460240  
+HCMM    1    1.0079  0.0  A         0.235197    0.092048  
+
+
+[ pairtypes ] 
+;  i     j    func     sigma1-4       epsilon1-4 ; THESE ARE 1-4 INTERACTIONS 
+O=C      CB     1      0.302228    0.383470 
+O=C      O=C    1      0.249452    0.502080 
+O=C      NC=O   1      0.289542    0.648182 
+O=C      CR     1      0.293997    0.144938 
+O=C      C=O    1      0.302905    0.480705 
+O=C      HCMM   1      0.242324    0.214978 
+CR       CB     1      0.346773    0.110698 
+CR       NC=O   1      0.334087    0.187114 
+CR       CR     1      0.338541    0.041840 
+CR       C=O    1      0.347450    0.138768 
+CR       HCMM   1      0.286869    0.062059 
+
